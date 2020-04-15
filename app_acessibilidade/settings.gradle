@@ -1,0 +1,3 @@
+rootProject.name='app_acessibilidade'
+include ':app'
+include ':openCV347'
