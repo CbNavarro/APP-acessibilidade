@@ -3,4 +3,5 @@ App voltado a melhorar a acessibilidade de deficientes visuais
 
 # TUTORIAIS
 
-# - TUTORIAIS
+# - Importando codigo no Android Studio
+
