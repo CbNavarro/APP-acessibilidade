@@ -13,7 +13,7 @@ Para importar e abrir o codigo do projeto no Android Studio, siga os passos abai
 
 3 - Abra o Android Studio e Clique em " Open an existing Android Studio Project "
   *Imagem de exemplo
-![Imagem de referencia]()
+![Imagem de referencia](https://github.com/CbNavarro/APP-acessibilidade/blob/master/img/passo_1.PNG)
 
 4 - Espere até que o Android Studio tenha importado o projeto e pronto.
 
@@ -32,7 +32,7 @@ Para instalar o aplicativo no seu celular através do Android Studio, siga os pa
 
   *Segue imagem de exemplo abaixo.
   
-  ![Imagem de referencia]()
+  ![Imagem de referencia](https://github.com/CbNavarro/APP-acessibilidade/blob/master/img/passo_2.PNG)
   
 5 - Se está tudo Ok até aqui, clique no Botão verde ao lado do nome do Dispositivo e ele começará a instalar no seu celular.
 
