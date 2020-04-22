@@ -29,9 +29,13 @@ Para instalar o aplicativo no seu celular através do Android Studio, siga os pa
 3 - Após isso, seu celular estará pronto para instalar o apk
 
 4 - Volte ao Android Studio, se os passos foram feitos corretamente deverá aparecer seu celular como uma opção de iniciar o projeto.
-  *Segue imagem de exemplo abaixo.
-  ![Imagem de referencia]()
-5 - Se está tudo Ok até aqui, clique no Botão verde ao lado do nome do Dispositivo e ele começará a instalar no seu celular.
-  *Caso aparece uma mensagem perguntando se deseja instalar o aplicativo, clique em permitir
 
+  *Segue imagem de exemplo abaixo.
+  
+  ![Imagem de referencia]()
+  
+5 - Se está tudo Ok até aqui, clique no Botão verde ao lado do nome do Dispositivo e ele começará a instalar no seu celular.
+
+  *Caso aparece uma mensagem perguntando se deseja instalar o aplicativo, clique em permitir
+  
 6 - Agora é so abrir o aplicativo e utilizar... :)
