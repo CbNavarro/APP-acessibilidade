@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/APP-acessibilidade.iml" filepath="$PROJECT_DIR$/.idea/APP-acessibilidade.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="app_acessibilidade/app" />
+      <module fileurl="file://$PROJECT_DIR$/app_acessibilidade.iml" filepath="$PROJECT_DIR$/app_acessibilidade.iml" group="app_acessibilidade" />
+      <module fileurl="file://$PROJECT_DIR$/openCV347/openCV347.iml" filepath="$PROJECT_DIR$/openCV347/openCV347.iml" group="app_acessibilidade/openCV347" />
     </modules>
   </component>
 </project>
