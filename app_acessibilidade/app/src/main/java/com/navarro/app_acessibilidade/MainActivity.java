@@ -1,8 +1,12 @@
 package com.navarro.app_acessibilidade;
 
+import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.Manifest;
+import android.content.pm.PackageManager;
 import android.graphics.Camera;
+import android.os.Build;
 import android.os.Bundle;
 import android.view.SurfaceView;
 import android.widget.Toast;
@@ -18,10 +22,12 @@ import org.opencv.imgproc.Imgproc;
 
 public class MainActivity extends AppCompatActivity implements CameraBridgeViewBase.CvCameraViewListener2 {
 
+    private static final int MY_CAMERA_REQUEST_CODE = 7;
     CameraBridgeViewBase cameraBridgeViewBase;
     BaseLoaderCallback baseLoaderCallback;
     int counter = 0;
 
+    @RequiresApi(api = Build.VERSION_CODES.M)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,6 +36,11 @@ public class MainActivity extends AppCompatActivity implements CameraBridgeViewB
         cameraBridgeViewBase = (JavaCameraView)findViewById(R.id.CameraView);
         cameraBridgeViewBase.setVisibility(SurfaceView.VISIBLE);
         cameraBridgeViewBase.setCvCameraViewListener(this);
+
+        //permissao da camera
+        if (checkSelfPermission(Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED) {
+            requestPermissions(new String[]{Manifest.permission.CAMERA}, MY_CAMERA_REQUEST_CODE);
+        }
 
 
         //System.loadLibrary(Core.NATIVE_LIBRARY_NAME);
@@ -56,7 +67,7 @@ public class MainActivity extends AppCompatActivity implements CameraBridgeViewB
 
         Mat frame = inputFrame.rgba();
 
-        if (counter % 2 == 0){
+        if (counter == 0){
 
             Core.flip(frame, frame, 1);
             Imgproc.cvtColor(frame, frame, Imgproc.COLOR_RGBA2GRAY);
