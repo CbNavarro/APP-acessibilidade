@@ -370,6 +370,7 @@ public abstract class CameraBridgeViewBase extends SurfaceView implements Surfac
 //                    ((Activity) getContext()).closeContextMenu();
 //                }
 //            });
+
             ad.show();
 
         }

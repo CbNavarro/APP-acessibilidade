@@ -18,10 +18,32 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+    <option name="TOOL_WINDOW_REGEXP_FILTER" value="false" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0bfd618-5259-4d73-9c4d-7b865bca1cf5" name="Default Changelist" comment="" />
+    <list default="true" id="c0bfd618-5259-4d73-9c4d-7b865bca1cf5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/yolov3-tiny.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/yolov3-tiny.weights" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/navarro/app_acessibilidade/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/navarro/app_acessibilidade/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openCV347/build/intermediates/compile_library_classes/debug/classes.jar" beforeDir="false" afterPath="$PROJECT_DIR$/openCV347/build/intermediates/compile_library_classes/debug/classes.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openCV347/build/intermediates/incremental/debug-mergeNativeLibs/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/openCV347/build/intermediates/incremental/debug-mergeNativeLibs/merge-state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openCV347/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/openCV347/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openCV347/build/intermediates/incremental/mergeDebugShaders/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/openCV347/build/intermediates/incremental/mergeDebugShaders/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openCV347/build/intermediates/incremental/packageDebugAssets/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/openCV347/build/intermediates/incremental/packageDebugAssets/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openCV347/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/openCV347/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openCV347/build/intermediates/incremental/packageDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/openCV347/build/intermediates/incremental/packageDebugResources/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openCV347/build/intermediates/javac/debug/classes/org/opencv/android/CameraBridgeViewBase$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/openCV347/build/intermediates/javac/debug/classes/org/opencv/android/CameraBridgeViewBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/openCV347/build/intermediates/javac/debug/classes/org/opencv/android/CameraBridgeViewBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openCV347/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/openCV347/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openCV347/build/intermediates/runtime_library_classes/debug/classes.jar" beforeDir="false" afterPath="$PROJECT_DIR$/openCV347/build/intermediates/runtime_library_classes/debug/classes.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openCV347/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/openCV347/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openCV347/src/main/java/org/opencv/android/CameraBridgeViewBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/openCV347/src/main/java/org/opencv/android/CameraBridgeViewBase.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,8 +63,15 @@
       </state>
     </system>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1aPI9byAGJQrXP7AwAI8L4Ncs6L" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Dependencies" />
@@ -136,5 +165,24 @@
       <updated>1586630651628</updated>
     </task>
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.cfg" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
