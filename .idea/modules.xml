@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="app_acessibilidade/app" />
-      <module fileurl="file://$PROJECT_DIR$/app_acessibilidade.iml" filepath="$PROJECT_DIR$/app_acessibilidade.iml" group="app_acessibilidade" />
-      <module fileurl="file://$PROJECT_DIR$/openCV347/openCV347.iml" filepath="$PROJECT_DIR$/openCV347/openCV347.iml" group="app_acessibilidade/openCV347" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TFLite_Object_Detection_Demo_App.iml" filepath="$PROJECT_DIR$/.idea/modules/TFLite_Object_Detection_Demo_App.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/TFLite_Object_Detection_Demo_App.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/TFLite_Object_Detection_Demo_App.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lib_interpreter/TFLite_Object_Detection_Demo_App.lib_interpreter.iml" filepath="$PROJECT_DIR$/.idea/modules/lib_interpreter/TFLite_Object_Detection_Demo_App.lib_interpreter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lib_task_api/TFLite_Object_Detection_Demo_App.lib_task_api.iml" filepath="$PROJECT_DIR$/.idea/modules/lib_task_api/TFLite_Object_Detection_Demo_App.lib_task_api.iml" />
     </modules>
   </component>
 </project>

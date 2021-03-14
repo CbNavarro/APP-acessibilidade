@@ -1,0 +1,6 @@
+???
+direita
+esquerda
+reta
+saindoDireita
+saindoEsquerda

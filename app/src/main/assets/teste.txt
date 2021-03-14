@@ -1,0 +1,6 @@
+???
+faixa_direita
+faixa_esquerda
+faixa_reta
+faixa_saindo_direita
+faixa_saindo_esquerda
